@@ -1,0 +1,176 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.header-content {
+    /* align-self: flex-start; */
+    flex: 1;
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    /* float:left;    */
+}
+
+.header-content h1 {
+    font-family: var(--font-heading);
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.header-content p {
+    font-family: var(--font-para);
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--color-neon);
+    margin-top: 1.5rem;
+}
+
+.header-content-input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content-input input {
+    font-family:var(--font-kanit);
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    line-height: 20px;
+    background: var(--color-footer);
+    border: none;
+    border: 2px solid black;
+    outline: none;
+    color:white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 1rem;
+}
+
+.header-content-input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-kanit);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-content-people {
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+
+}
+
+.header-content-people img {
+    width: 180px;
+    height: 38px;
+}
+
+.header-content-people p{
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-content-ai{
+    /* align-self: flex-end; */
+    flex:1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* float: right; */
+}
+
+.header-content-ai img {
+    width: 100%;
+    height: 100%;
+    /* width: auto;
+    height: auto; */
+}   
+
+/*? flex direction was row in big screen to fit image side by the content and in smaller screen it will be column as defined below in the media query */
+/* !these property will be applied when the sceen size will be less than 1050px */
+@media screen and (max-width: 1050px){
+    .header{
+        flex-direction: column;
+    }
+    .header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-content h1 {
+        font-size: 49px;
+        line-height: 55px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .header-content-people {
+        flex-direction: column;
+    }
+    .header-content-people p{
+        margin: 0;
+        letter-spacing: 0.8px;
+    }
+
+    .header-content-input input, 
+    .header-content-input button {
+        font-size: 17px;
+        /* border: 2px solid #8E44AD; */
+    }
+}
+
+@media screen and (max-width: 480px){
+    .header-content h1{
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 500;
+    }
+
+    .header-content p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header-content-people p{
+        letter-spacing: normal;
+    }
+
+    .header-content-input input, 
+    .header-content-input button {
+        font-size: 14px;
+        line-height: 23px;
+        /* border: 2px solid #8E44AD; */
+    }
+}
