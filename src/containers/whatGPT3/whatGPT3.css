@@ -1,0 +1,90 @@
+.whatgpt3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 46, 93);
+    padding: 2rem;
+    border-radius: 3px;
+
+}
+
+.whatgpt3-feature-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.whatgpt3-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whatgpt3-heading h1{
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    max-width: 500px;
+    text-transform: capitalize;
+}
+
+.whatgpt3-heading p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    max-width: 200px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    color: #F49867;
+}
+
+.whatgpt3-container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    /* justify-content: space-between; */
+}
+
+/*? experiment  */
+/* .whatgpt3-feature-1 .feature-container {
+    /* margin: 0; 
+} */
+
+.whatgpt3-container-3 .feature-container {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+@media screen and (max-width:880px){
+    .whatgpt3-heading h1{
+        font-size:30px ;
+        line-height: 35px;
+        max-width: 300px;
+    }
+    .whatgpt3-heading p {
+        margin:0;
+    }
+    .whatgpt3-container-3{
+        margin-top: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .whatgpt3-heading h1 {
+        font-size: 22px;
+        line-height: 25px;
+        max-width: 220px;
+    }
+    .whatgpt3-container-3{
+        margin-top: 5px;
+    }
+    
+    .whatgpt3-heading p {
+        font-size:13px ;
+        line-height: 14px;
+    }
+}
