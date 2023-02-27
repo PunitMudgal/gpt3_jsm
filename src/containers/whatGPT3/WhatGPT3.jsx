@@ -4,7 +4,7 @@ import Feature from "../../components/feature/Feature";
 
 export default function WhatGPT3() {
   return (
-    <div className="whatgpt3 section_margin">
+    <div className="whatgpt3 section_margin" id="whatGPT3">
       <div className="whatgpt3-feature-1">
         <Feature title="What is GPT-3" description="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."/>
       </div>
