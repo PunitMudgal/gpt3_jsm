@@ -52,21 +52,21 @@ export default function Navbar() {
         {toggleMenu && (
           <div className="vite__navbar-menu_container slide-in-top">
             <div className="vite__navbar-menu_container-links">
-              <p>
-                <a href="#home">Home</a>
-              </p>
-              <p>
-                <a href="#home">What is GPT?</a>
-              </p>
-              <p>
-                <a href="#home">Open AI</a>
-              </p>
-              <p>
-                <a href="#home">Case Studies</a>
-              </p>
-              <p>
-                <a href="#home">Library</a>
-              </p>
+            <p>
+            <a href="#home">Home</a>
+          </p>
+          <p>
+            <a href="#whatGPT3">What is GPT</a>
+          </p>
+          <p>
+            <a href="#possibility">Open AI</a>
+          </p>
+          <p>
+            <a href="#features">Case Studies</a>
+          </p>
+          <p>
+            <a href="#home">Library</a>
+          </p>
             </div>
             <div className="vite__navbar-menu_container-login">
               <p>sign in</p>

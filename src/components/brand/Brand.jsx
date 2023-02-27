@@ -9,7 +9,7 @@ import google from '../../assets/google.png';
 
 export default function Brand() {
   return (
-    <div className='full-brand'>
+    <div className='full-brand section_margin'>
       <div>
         <img src={atlassian} alt="404 img not found" />
       </div>
