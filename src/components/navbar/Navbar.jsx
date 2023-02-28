@@ -26,7 +26,7 @@ export default function Navbar() {
             <a href="#features">Case Studies</a>
           </p>
           <p>
-            <a href="#home">Library</a>
+            <a href="#blog">Library</a>
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function Navbar() {
             <a href="#features">Case Studies</a>
           </p>
           <p>
-            <a href="#home">Library</a>
+            <a href="#blog">Library</a>
           </p>
             </div>
             <div className="vite__navbar-menu_container-login">

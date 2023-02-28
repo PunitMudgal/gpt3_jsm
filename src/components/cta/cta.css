@@ -1,0 +1,88 @@
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background-color: black;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white
+}
+
+.cta-content p {
+    font-size: 14px;
+    line-height: 28px;
+    font-family: var(--font-para);
+    font-weight: 500;
+   color: var(--color-orange
+   );
+}
+
+.cta-content h3 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42px;
+    color: var(--color-neon);
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.cta-button button {
+    background-color: var(--color-orange);
+    color: black;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1.5rem;
+    border: none;
+    min-width: 150px;
+}
+
+@media screen and (max-width:800px){
+    .cta-content h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .cta-content h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .cta{
+        flex-direction: column;
+        padding: 1.4rem;
+    }
+
+    .cta-content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .cta-button{
+        margin: 2rem 0 0 0;
+    }
+
+    .cta-button button {
+        font-size: 14px;
+        padding: 0.4rem 0.6rem;
+        border-radius: 1.2rem;
+        border: none;
+    }
+}
