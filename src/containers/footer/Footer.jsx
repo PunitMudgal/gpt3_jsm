@@ -33,9 +33,9 @@ export default function Footer() {
         </div>
         <div className='footer-links-div'>
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>Punit Sharma</p>
           <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>IDon'tKnow@gmail.com</p>
         </div>
       </div>
 
