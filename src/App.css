@@ -62,13 +62,6 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.section_padding {
-  padding: 3rem 6rem;
-}
-.section_margin {
-  margin: 4rem 6rem;
-}
-
 /* animation from animista  */
 .slide-in-top {
 	-webkit-animation: slide-in-top 0.5s ease-in-out both;
@@ -90,17 +83,24 @@ a {
 @keyframes slide-in-top {
   0% {
     -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    transform: translateY(-1000px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
 
 
+/* default margin padding  */
+.section_padding {
+  padding: 3rem 6rem;
+}
+.section_margin {
+  margin: 4rem 6rem;
+}
 
 @media screen and (max-width: 700) {
   .section_padding{
